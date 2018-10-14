@@ -4,7 +4,7 @@
 #include <unordered_map>
 #include <string>
 #include <cstring>
-#include <map>jj
+#include <map>
 size_t toId(char c) {
 	return static_cast<size_t>(c - '0');
 }
