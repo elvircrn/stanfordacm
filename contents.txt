@@ -30,6 +30,7 @@ ReducedRowEchelonForm.cc	Reduced row echelon form, matrix rank
 FFT_new.cc	Fast Fourier transform
 Simplex.cc	Simplex algorithm
 #FFT.cc	Fast Fourier transform (C++)
+ModularInverse.cc Modular inverse of a single number, all modular inverses for a modulo
 
 [Graph algorithms]
 #BellmanFord.cc	Bellman-Ford shortest paths with negative edge weights (C++)
