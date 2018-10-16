@@ -44,6 +44,8 @@ KDTree.cc	KD-tree
 splay.cc	Splay tree
 LCA.cc	Lowest common ancestor
 trie.cc	Trie
+2dbit.cc	2D BIT
+
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence
