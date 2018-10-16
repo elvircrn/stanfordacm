@@ -47,10 +47,9 @@ trie.cc	Trie
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence
-Dates.cc	Dates
 Primes.cc	Prime numbers
 IO.cc	C++ input/output
-KMP.cc	Knuth-Morris-Pratt
+# KMP.cc	Knuth-Morris-Pratt
 LatLong.cc	Latitude/longitude
 matrice.cpp	Matrix
 #TopologicalSort.cc	Topological sort (C++)
