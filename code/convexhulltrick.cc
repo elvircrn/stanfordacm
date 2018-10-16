@@ -11,7 +11,12 @@ ftype cross(point a, point b) {
 }
 vector<point> hull, vecs; 
 /**
- * Given l1, l2, l3, where we are considering to add l3.
+ * Given l1, l2, l3, where we are considering to add l3, l2 is irrelevant iff
+ * interesection(l1, l3) is to the left of interesection(l1, l2).
+ *
+ * This technique can be use to solve dp problems of the form
+ * dpi = min(bj * ai + dpj), where j \in [1,i-1], bi > bj ,\foreach i<j.
+ */
 void add_line(ftype k, ftype b) {
     point nw = {k, b};
     while(!vecs.empty() && dot(vecs.back(), nw - hull.back()) < 0) {
@@ -23,7 +28,6 @@ void add_line(ftype k, ftype b) {
     }
     hull.push_back(nw);
 }
-
 int get(ftype x) {
     point query = {x, 1};
     auto it = lower_bound(vecs.begin(), vecs.end(), query, [](point a, point b) {

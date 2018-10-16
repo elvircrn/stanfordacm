@@ -17,6 +17,7 @@ GraphCutInference.cc	Graph cut inference
 ConvexHull.cc	Convex hull
 Geometry.cc	Miscellaneous geometry
 Delaunay.cc	Slow Delaunay triangulation
+convexhulltrick.cc	Convex hull trick
 
 [Numerical algorithms]
 Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
@@ -45,7 +46,7 @@ splay.cc	Splay tree
 LCA.cc	Lowest common ancestor
 trie.cc	Trie
 2dbit.cc	2D BIT
-
+lichao.cc	Li Chao
 
 [Miscellaneous]
 LongestIncreasingSubsequence.cc	Longest increasing subsequence
