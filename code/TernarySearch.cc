@@ -5,14 +5,10 @@
 using namespace std;
 
 // Ne radi ako ima "ravnih" dijelova
-int find_max(const vector<int> &v) {
-
-    int low = 0, high = v.size() - 1;
-
-    while (high - low > 1) {
-
-        int mid = (high + low) / 2;
-
+int find_max(const vector<int> &v) { 
+    int low = 0, high = v.size() - 1; 
+    while (high - low > 1) { 
+        int mid = (high + low) / 2; 
         if (v[mid] < v[mid + 1]) {
             low = mid;
         } else if (v[mid] > v[mid + 1]) {
