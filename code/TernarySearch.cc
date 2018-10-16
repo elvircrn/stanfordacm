@@ -17,9 +17,7 @@ int find_max(const vector<int> &v) {
             low = mid;
         } else if (v[mid] > v[mid + 1]) {
             high = mid;
-        } else {
-            int next_larger = 
-        }
+        } 
     }
 
     return max(v[low], v[high]);
