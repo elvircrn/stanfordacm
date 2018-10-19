@@ -18,6 +18,7 @@ ConvexHull.cc	Convex hull
 Geometry.cc	Miscellaneous geometry
 Delaunay.cc	Slow Delaunay triangulation
 convexhulltrick.cc	Convex hull trick
+articulation.cc	Articulation
 
 [Numerical algorithms]
 Euclid.cc	Number theory (modular, Chinese remainder, linear Diophantine)
