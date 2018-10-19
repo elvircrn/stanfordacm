@@ -62,4 +62,4 @@ matrice.cpp	Matrix
 #FastExpo.cc	Fast exponentiation
 #LCS.cc	Longest common subsequence
 #MillerRabin.c	Miller-Rabin Primality Test (C)
-TernarySearch.cpp	C++ Ternary search for finding the maximum of a 1D concave function 
+TernarySearch.cc	C++ Ternary search for finding the maximum of a 1D concave function 
